@@ -192,8 +192,7 @@
     console.log(mins);
     const secs = timecode.split(':').map(parseFloat)[1];
     console.log(secs);
-
-
+    return (mins * 60) + secs;
   })
     
 </script>
